@@ -9,7 +9,7 @@ console.log("Starting mini-harp on http://localhost:" + port);
 app.use(function(request,response,next) {
 	if(request.url == '/current-time'){
 		response.end(new Date().toISOString()+'\n');
-    }else{
+	}else{
 		next();
 	}
 }).listen(port);
