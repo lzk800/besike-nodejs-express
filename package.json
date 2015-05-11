@@ -1,0 +1,15 @@
+{
+  "name": "mini-harp",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin" : { "mini-harp" : "./bin/mini-harp" },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "hello-world"
+  ],
+  "author": "lzk800",
+  "license": "MIT"
+}
